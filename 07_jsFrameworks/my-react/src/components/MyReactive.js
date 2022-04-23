@@ -24,6 +24,6 @@ class MyReactive extends React.Component {
         )
 
     }
-}
+};
 
 export default MyReactive

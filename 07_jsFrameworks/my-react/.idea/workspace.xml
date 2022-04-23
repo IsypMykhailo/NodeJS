@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="react">
-      <change afterPath="$PROJECT_DIR$/src/components/MyReactive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-vue.js/src/components/reactive/MyReactive.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../my-vue.js/src/components/reactive/MyReactive.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/.idea/myangularnext.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/.idea/myangularnext.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/components/contact-form/contact-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/components/contact-form/contact-form.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myangularnext/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyReactive.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyReactive.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +85,7 @@
       <workItem from="1650559840488" duration="1620000" />
       <workItem from="1650569964187" duration="12000" />
       <workItem from="1650652230154" duration="282000" />
-      <workItem from="1650732602229" duration="1283000" />
+      <workItem from="1650732602229" duration="1460000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -113,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650560048837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="react">
+      <created>1650733997550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650733997550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
