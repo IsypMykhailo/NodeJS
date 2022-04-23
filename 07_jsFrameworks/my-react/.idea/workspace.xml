@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="react">
+      <change afterPath="$PROJECT_DIR$/src/components/MyReactive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-vue.js/src/components/reactive/MyReactive.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../my-vue.js/src/components/reactive/MyReactive.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/.idea/myangularnext.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/.idea/myangularnext.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/components/contact-form/contact-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/components/contact-form/contact-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/app/components/hello-world/hello-world.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myangularnext/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myangularnext/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="287EVgE8WGqypasFmFJ3W52tw7w" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_angular" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myangularnext" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,7 +55,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -83,6 +97,7 @@
       <workItem from="1650559840488" duration="1620000" />
       <workItem from="1650569964187" duration="12000" />
       <workItem from="1650652230154" duration="282000" />
+      <workItem from="1650732602229" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>

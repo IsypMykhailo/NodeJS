@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b738456-acc6-42f1-b0d6-37e59f2bff70" name="Default Changelist" comment="example">
+      <change afterPath="$PROJECT_DIR$/../my-react/src/components/MyReactive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-vue.js/src/components/reactive/MyReactive.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../my-vue.js/src/components/reactive/MyReactive.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myangularnext.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myangularnext.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/contact-form/contact-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/contact-form/contact-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/contact-form/contact-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/contact-form/contact-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/contact-form/contact-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/contact-form/contact-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/hello-world/hello-world.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/hello-world/hello-world.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/hello-world/hello-world.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/hello-world/hello-world.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +43,7 @@
     <property name="ts.external.directory.path" value="D:\ПРОГРАММИРОВАНИЕ\Программирование\NodeJS\07_jsFrameworks\myangularnext\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
@@ -74,7 +84,9 @@
       <workItem from="1650556475382" duration="2312000" />
       <workItem from="1650652556167" duration="1224000" />
       <workItem from="1650726194559" duration="15000" />
-      <workItem from="1650730648345" duration="1020000" />
+      <workItem from="1650730648345" duration="1556000" />
+      <workItem from="1650732560055" duration="40000" />
+      <workItem from="1650733326230" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="angular">
       <created>1650556647055</created>
