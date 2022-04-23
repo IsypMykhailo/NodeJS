@@ -1,0 +1,249 @@
+<template>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="card">
+          <div class="card-block">
+            <h2>About me</h2>
+            <div class="row">
+              <div class="col-md-41">
+                <p><img src="./assets/images/img-01.jpg" class="img-responsive" alt=""></p>
+              </div>
+              <div class="col-md-8">
+
+                <p>I'm a Junior Coder from Mykolaiv, Ukraine</p>
+                <p> I enjoy taking complex problems and turning them into the application with beautiful UI and lots of possibilities and facilities. I also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be C#, C++, JavaScript, T-SQL or HTML.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Projects <span class="download">(click to download)</span></h2>
+            <div class="row">
+              <div class="projects">
+                <div class="col-md-4">
+                  <a href="files/Internet Download Manager.exe" download><img src="./assets/images/img-02.jpg" class="img-responsive" alt=""></a>
+                  <h3 class="h5">Internet Download Manager</h3>
+                  <p>September 2021</p>
+                </div>
+                <div class="col-md-4">
+                  <a href="files/Games.exe" download><img src="./assets/images/img-04.jpg" class="img-responsive" alt=""></a>
+                  <h3 class="h5">Pack of Games on WinForms</h3>
+                  <p>May 2021</p>
+                </div>
+                <div class="col-md-4">
+                  <a href="files/WpfGames.exe" download><img src="./assets/images/img-05.jpg" class="img-responsive" alt=""></a>
+                  <h3 class="h5">Pack of Games on WPF</h3>
+                  <p>June 2021</p>
+                </div>
+                <div class="col-md-4">
+                  <a href="files/Dinosaur.rar" download><img src="./assets/images/img-06.jpg" class="img-responsive" alt=""></a>
+                  <h3 class="h5">Dinosaur</h3>
+                  <p>June 2021</p>
+                </div>
+                <div class="col-md-4">
+                  <a href="files/Spy app.exe" download><img src="./assets/images/img-03.jpg" class="img-responsive" alt=""></a>
+                  <h3 class="h5">Spy app</h3>
+                  <p>October 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="card">
+          <div class="card-block">
+            <h2>Work</h2>
+            <div class="work-experience">
+              <small class="date">2017-2015</small>
+              <h3 class="h5 date-title">Web developer - <a href="http://en.orson.io" title="Create professionnal website">Orson.io</a></h3>
+
+
+              <p>Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Vitae ultricies leo integer malesuada nunc. Imperdiet proin fermentum leo vel orci porta non pulvinar neque. Fermentum leo vel orci porta non. Posuere sollicitudin aliquam ultrices sagittis. Aliquam faucibus purus in massa tempor nec.</p>
+            </div>
+
+            <div class="work-experience">
+              <small class="date">2017-2015</small>
+              <h3 class="h5 date-title">Web developer - <a href="http://mashup-template.com" title="">Mashup Template</a></h3>
+
+              <p>Fermentum leo vel orci porta non. Posuere sollicitudin aliquam ultrices sagittis. Aliquam faucibus purus in massa tempor nec.</p>
+            </div>
+          </div>
+        </div>-->
+
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Education</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2011-Present</small>
+                  <h3 class="h5 date-title">Secondary Education</h3>
+                  <p>Mykolaiv Gymnasium 2</p>
+                </div>
+
+              </div>
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <small class="date">2015-Present</small>
+                  <h3 class="h5 date-title">Additional Education</h3>
+                  <p>Computer Academy "STEP", Mykolaiv</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Language</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">English  <small>Fluent</small></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">French  <small>Fluent</small></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">Russian  <small>Native</small></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">Ukrainian  <small>Native</small></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="card">
+          <div class="card-block">
+            <h2>Projects</h2>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="./assets/images/img-05.jpg" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                  <h3 class="h5">Jules for Bastion</h3>
+                  <p>2017</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/img-06.jpg" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                  <h3 class="h5">Jules for Bastion</h3>
+                  <p>2017</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/img-08.jpg" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                  <h3 class="h5">Jules for Bastion</h3>
+                  <p>2017</p>
+                </div>
+              </div>
+            </div>
+
+
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+          </div>
+          </div>
+        </div>-->
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Social Network</h2>
+            <div class="row">
+              <div class="col-md-3">
+                <p class="social-buttons"><a href="https://instagram.com/mike_isyp/" title=""><span class="social-round-icon fa-icon"><i class="fa fa-instagram"></i></span>@mike_isyp</a></p>
+              </div>
+              <div class="col-md-3">
+                <p class="social-buttons"><a href="https://facebook.com/profile.php?id=100010348093298" title=""><span class="social-round-icon fa-icon"><i class="fa fa-facebook"></i></span>Mike Isyp</a></p>
+              </div>
+              <div class="col-md-3">
+                <p class="social-buttons"><a href="https://twitter.com/mike_isyp" title=""><span class="social-round-icon fa-icon"><i class="fa fa-twitter"></i></span>@mike_isyp</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="card">
+          <div class="card-block">
+            <h2>Contact</h2>
+            <form action="" class="reveal-content">
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class=" btn btn-primary">Send message</button>
+              </div>
+            </form>
+          </div>
+        </div>-->
+        <!--<div class="card">
+          <div class="card-block">
+        <div class="form">
+          <form action="#" id="form" class="form_body">
+            <h2 class="form_title">Contact</h2>
+            <div class="form_item">
+              <label for="formName" class="form_label">Name:</label>
+              <input id="formName" type="text" name="name" class="form_input _req">
+            </div>
+            <div class="form_item">
+              <label for="formEmail" class="form_label">E-mail:</label>
+              <input id="formEmail" type="text" name="email" class="form_input _req _email">
+            </div>
+            <div class="form_item">
+              <label for="formMessage" class="form_label">Message:</label>
+              <textarea name="message" id="formMessage" class="form_input _req"></textarea>
+            </div>
+            <button type="submit" class="form_button">Send</button>
+          </form>
+        </div>
+        </div>
+        </div>
+        <script src="script.js"></script>-->
+
+
+
+      </div>
+    </div>
+  </div>
+
+</template>
+
+<script>
+export default {
+  name: "my-content"
+}
+</script>
+
+<style scoped>
+
+</style>
