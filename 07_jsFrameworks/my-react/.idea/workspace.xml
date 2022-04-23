@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="react">
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/src/components/ContactForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-vue.js/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Node.js/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_angular" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -94,7 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1650559249119</updated>
       <workItem from="1650559250275" duration="577000" />
-      <workItem from="1650559840488" duration="1027000" />
+      <workItem from="1650559840488" duration="1620000" />
+      <workItem from="1650569964187" duration="12000" />
+      <workItem from="1650652230154" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
