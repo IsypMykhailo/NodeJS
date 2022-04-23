@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5155c6a-921f-4964-93d3-f2cd1d966f10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/mashup-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/mashup-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my-content.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my-footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my-header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="d5155c6a-921f-4964-93d3-f2cd1d966f10" name="Default Changelist" comment="vue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650727019531</updated>
-      <workItem from="1650727020692" duration="1037000" />
+      <workItem from="1650727020692" duration="1403000" />
     </task>
+    <task id="LOCAL-00001" summary="vue">
+      <created>1650728379552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650728379552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue" />
   </component>
 </project>

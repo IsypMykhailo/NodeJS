@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MyReactive></MyReactive>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyReactive from "@/components/reactive/MyReactive";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyReactive
   }
 }
 </script>
