@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="react">
+      <change afterPath="$PROJECT_DIR$/src/components/MyArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyReactive.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyReactive.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +89,7 @@
       <workItem from="1650559840488" duration="1620000" />
       <workItem from="1650569964187" duration="12000" />
       <workItem from="1650652230154" duration="282000" />
-      <workItem from="1650732602229" duration="1566000" />
+      <workItem from="1650732602229" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -116,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650734121927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="react">
+      <created>1650734199191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650734199191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

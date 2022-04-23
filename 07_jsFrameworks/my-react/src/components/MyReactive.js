@@ -7,6 +7,15 @@ class MyReactive extends React.Component {
         this.state = {
             myName: "Mykhailo"
         }
+        this.onInputChange = this.onInputChange.bind(this);
+    }
+
+    componentDidMount(){
+        console.log("Mount");
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log('Update');
     }
 
     onInputChange(ev){
@@ -21,6 +30,7 @@ class MyReactive extends React.Component {
             <div>
                 <h1>Привет, {this.state.myName}</h1>
                 <input name="myName" onChange={this.onInputChange.bind(this)}></input>
+                <input name="myEmail" onChange={this.onInputChange.bind(this)}></input>
             </div>
         )
 
