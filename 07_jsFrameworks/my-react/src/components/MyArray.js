@@ -39,7 +39,7 @@ class MyArray extends React.Component{
                 </ul>
                 <div>
                     <input name='myVal' onChange={this.onInputChange}></input>
-                    <input type="button" onClick={this.onAdd}></input>
+                    <input type="button" onClick={this.onAdd}>Add</input>
                 </div>
             </div>
         )
