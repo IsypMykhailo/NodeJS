@@ -13,21 +13,23 @@ import PageHome from "./pages/Home";
 import PageAbout from "./pages/About";
 import PageContact from "./pages/Contact";
 import PageError404 from "./pages/Error404";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-        <Header></Header>
-        <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<PageHome />} />
-            <Route path="about" element={<PageAbout />} />
-            <Route path="contact" element={<PageContact />} />
-            <Route path="*" element={<PageError404 />} />
-        </Routes>
-        </BrowserRouter>
-        <Footer></Footer>
-    </div>
+      <BrowserRouter>
+        <div className="App">
+            <Header></Header>
+                <Routes>
+                    <Route path="/" element={<PageHome />} />
+                    <Route path="about" element={<PageAbout />} />
+                    <Route path="contact" element={<PageContact />} />
+                    <Route path="*" element={<PageError404 />} />
+                </Routes>
+            <Footer></Footer>
+        </div>
+      </BrowserRouter>
+
   );
 }
 

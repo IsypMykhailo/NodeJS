@@ -17,6 +17,14 @@ class MyArray extends React.Component{
         this.setState(state);
     }
 
+    onDelete(ev){
+        
+    }
+
+    onUpdate(ev){
+
+    }
+
     onInputChange(ev){
         const state = this.state;
         const name = ev.target.name;

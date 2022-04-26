@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="react">
-      <change afterPath="$PROJECT_DIR$/src/layouts/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Error404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="reactRouting">
+      <change afterPath="$PROJECT_DIR$/src/layouts/MenuMain.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +96,7 @@
       <workItem from="1650569964187" duration="12000" />
       <workItem from="1650652230154" duration="282000" />
       <workItem from="1650732602229" duration="3626000" />
-      <workItem from="1650985567191" duration="2653000" />
+      <workItem from="1650985567191" duration="3657000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -159,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650985808400</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="reactRouting">
+      <created>1650988299120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650988299120</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react" />
-    <option name="LAST_COMMIT_MESSAGE" value="react" />
+    <MESSAGE value="reactRouting" />
+    <option name="LAST_COMMIT_MESSAGE" value="reactRouting" />
   </component>
 </project>
