@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import './App.css';
+import './assets/css/App.css';
 // eslint-disable-next-line
 import { Routes, Route, Link } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
@@ -14,6 +14,7 @@ import PageAbout from "./pages/About";
 import PageContact from "./pages/Contact";
 import PageError404 from "./pages/Error404";
 import React from "react";
+import PagePortfolios from "./pages/Portfolios";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/" element={<PageHome />} />
                     <Route path="about" element={<PageAbout />} />
                     <Route path="contact" element={<PageContact />} />
+                    <Route path="portfolios" element={<PagePortfolios />} />
                     <Route path="*" element={<PageError404 />} />
                 </Routes>
             <Footer></Footer>
