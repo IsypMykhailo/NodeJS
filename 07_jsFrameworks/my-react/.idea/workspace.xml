@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="reactPortfolio">
-      <change afterPath="$PROJECT_DIR$/../../03_express/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03_express/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_express/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListCreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListCreateItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListItem.js" afterDir="false" />
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="reactProxy">
+      <change afterPath="$PROJECT_DIR$/../../03_express/controllers/portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_express/models/portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_express/routes/portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_express/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <workItem from="1650985567191" duration="9391000" />
       <workItem from="1651074118027" duration="2137000" />
       <workItem from="1651076472305" duration="193000" />
-      <workItem from="1651076772735" duration="3659000" />
+      <workItem from="1651076772735" duration="4171000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651076490134</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="reactProxy">
+      <created>1651080938709</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651080938709</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +217,7 @@
     <MESSAGE value="react" />
     <MESSAGE value="reactRouting" />
     <MESSAGE value="reactPortfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="reactPortfolio" />
+    <MESSAGE value="reactProxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="reactProxy" />
   </component>
 </project>

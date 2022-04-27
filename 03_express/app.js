@@ -23,6 +23,9 @@ app.use('/users', usersRouter);
 let studentRouter = require('./routes/students');
 app.use('/students', studentRouter);
 
+let portfolioRouter = require('./routes/portfolio');
+app.use('/api/portfolios', portfolioRouter);
+
 let mongoose = require('mongoose');
 let connectionString = "mongodb+srv://Mikeis:Qwerty1234@cluster0.bzti4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(
