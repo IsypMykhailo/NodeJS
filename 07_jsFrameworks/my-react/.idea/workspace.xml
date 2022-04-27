@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="reactRouting">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/pages/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/pages/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListCreateItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Portfolios.js" afterDir="false" />
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="reactPortfolio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/MenuMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MenuMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListCreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListCreateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +104,8 @@
       <workItem from="1650569964187" duration="12000" />
       <workItem from="1650652230154" duration="282000" />
       <workItem from="1650732602229" duration="3626000" />
-      <workItem from="1650985567191" duration="7690000" />
+      <workItem from="1650985567191" duration="9391000" />
+      <workItem from="1651074118027" duration="2137000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -184,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650989287211</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="reactPortfolio">
+      <created>1650993793647</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650993793647</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react" />
     <MESSAGE value="reactRouting" />
-    <option name="LAST_COMMIT_MESSAGE" value="reactRouting" />
+    <MESSAGE value="reactPortfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="reactPortfolio" />
   </component>
 </project>
