@@ -11,6 +11,29 @@ export default class PortfolioListCreateItem extends React.Component {
         this.changeVisible = this.changeVisible.bind(this);
         this.onSave = this.onSave.bind(this);
         this.onInputChange = this.onInputChange.bind(this);
+        this.onUploadFile = this.onUploadFile.bind(this);
+        this.saveDataFile = this.saveDataFile.bind(this);
+    }
+
+    saveDataFile(data){
+        const state = this.state;
+        state.portfolio['imgBlob'] = data;
+        this.setState(state);
+    }
+
+    onUploadFile(ev){
+        if(FileReader){
+            let fileReader = new FileReader();
+            const save = this.saveDataFile;
+            fileReader.onload = function(){
+                console.log('Load');
+                save(fileReader.result);
+            }
+            fileReader.onerror = function(err){
+                console.log(err);
+            }
+            fileReader.readAsDataURL(ev.target.files[0]);
+        }
     }
 
     changeVisible(){
@@ -38,9 +61,16 @@ export default class PortfolioListCreateItem extends React.Component {
         if(!this.state.isVisible) return (
             <div onClick={this.changeVisible}> show </div>
         )
+        let img;
+        if(this.state.portfolio.imgBlob)
+            img = (<img src={this.state.portfolio.imgBlob} alt="PortfolioImg" width="150px"/>)
+        else
+            img=(<div>No Img</div>)
         return(
             <div>
-                <input type="text" name="name" onChange={this.onInputChange}/>
+                {img}<br/>
+                <input type="text" name="name" onChange={this.onInputChange}/><br/>
+                <input type="file" name="imgBlob" onChange={this.onUploadFile}/><br/>
                 <input type="button" value="save" onClick={this.onSave}/>
                 <div onClick={this.changeVisible}> hide </div>
             </div>
