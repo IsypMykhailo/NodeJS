@@ -1,44 +1,72 @@
-const portfolios = require("../models/portfolio")
+const portfolios = require('../models/portfolio')
 
-// Read students
-exports.get = function(request, response){
+// Вернуть всех
+exports.get = function (request, response) {
     portfolios.find({},
-        function(err,all){
-        if(err){
-            console.log(err)
-            return err
+        function (err, all) {
+            if(err) {
+                console.error(err)
+                return err
+            }
+            response.json(all)
         }
-        response.json(all)
-        })
+    )
 }
 
-// Create students
-exports.post = function(request, response){
-    console.log(request.body)
-    const newPortfolio = new portfolios(request.body)
-    newPortfolio.save(function(err){
-        if(err){
-            console.log(err)
+// Создать
+exports.post = async function (request, response) {
+    // console.error(request)
+    console.log("Body: ")
+    console.error(request.body)
+
+    let file = request.file;
+
+    console.log("File: ")
+    console.log(file);
+
+    if(!file) {
+        response.sendStatus(422)
+    }
+
+    let ex = ''
+    if(file.mimetype === "image/png") ex = '.png'
+    else if (file.mimetype === "image/jpg"|| file.mimetype === "image/jpeg") ex = '.jpg'
+    else if (file.mimetype === "image/webp") ex = '.webp'
+    else {
+        response.sendStatus(422)
+        return
+    }
+
+    const fs = require('fs');
+    const path = require('path');
+
+    console.log(__dirname)
+
+    let toFile = path.join(__dirname, '../public/storage/portfolio/') + file.filename + ex
+
+    await fs.copyFile(file.path, toFile, function (err) {
+        if (err) {
+            console.error(err)
+            response.send(err)
+            return
+        }
+        // Запись в базу и так далее тут
+        console.log('File copy')
+        response.send(201)
+    } )
+    // response.sendStatus(200)
+}
+
+
+// Создать
+exports.postJsonType = function (request, response) {
+    console.error(request.body)
+    const newPortfolio = new portfolios (request.body)
+    newPortfolio.save( function (err) {
+        if(err) {
+            console.error(err)
             return err
         }
         response.sendStatus(201)
     })
-}
-
-//*----------------------------------------------------
-
-//let students = []
-//students[0] = {id:1, name:"Ivanov"}
-//students[1] = {id:2, name:"Petrov"}
-
-// Read students
-exports.getOld = function(request, response){
-    response.json(portfolios)
-}
-
-// Create students
-exports.postOld = function(request, response){
-    console.log(request.body)
-    portfolios.push(request.body)
-    response.sendStatus(201)
 }
