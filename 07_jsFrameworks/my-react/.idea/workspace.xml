@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="myarray">
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/.idea/20_04.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz/20_04/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz/20_04/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/4.js" beforeDir="false" />
-    </list>
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="myarray" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +100,7 @@
       <workItem from="1651076772735" duration="5034000" />
       <workItem from="1651158264550" duration="4281000" />
       <workItem from="1651575660777" duration="1188000" />
-      <workItem from="1651590172127" duration="349000" />
+      <workItem from="1651590172127" duration="753000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
