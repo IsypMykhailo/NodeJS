@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const webp=require('webp-converter');
-const requestImageSize = require('request-image-size');
+//const requestImageSize = require('request-image-size');
+const im = require('imagemagick');
 
 /**
  * Единая точка перевода изображения в формат WEBP
@@ -20,6 +21,18 @@ function convertWEBP(request){
 
     let fromFile = path.join(__dirname, '../../public/uploads/', file.filename);
     console.log("FromFile: " + fromFile);
+
+    /*im.resize({
+        srcPath: fromFile,
+        dstPath: fromFile + 'resize',
+        width:256
+    }, function(err, stdout, stderr){
+        if(err){
+            console.log("Resize error: ")
+            console.log(err);
+        }
+        console.log('resized to fit within 256x256px');
+    });*/
 
     const result = webp.cwebp(fromFile, fromFile+".webp","-q 80", logging="-v");
     result.then(function(result) {
