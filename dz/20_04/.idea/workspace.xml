@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad377deb-daa6-4869-ad2a-ce2f9b348568" name="Changes" comment="webpack_dz">
+      <change afterPath="$PROJECT_DIR$/../20_04_tsc/.idea/20_04_tsc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_04_tsc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_04_tsc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_04_tsc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_04_tsc/ts/entities/group.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_04_tsc/ts/entities/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../07_jsFrameworks/my-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07_jsFrameworks/my-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_04_tsc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20_04_tsc/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651590619404</updated>
-      <workItem from="1651590620564" duration="391000" />
+      <workItem from="1651590620564" duration="569000" />
     </task>
     <task id="LOCAL-00001" summary="webpack_dz">
       <created>1651590678804</created>

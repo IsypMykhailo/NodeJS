@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="myarray" />
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="myarray">
+      <change afterPath="$PROJECT_DIR$/../../03_express/helpers/media-converter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_express/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_express/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_express/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz/20_04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04_tsc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz/20_04_tsc/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/dz/20_04",
+    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/03_express",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -100,7 +109,7 @@
       <workItem from="1651076772735" duration="5034000" />
       <workItem from="1651158264550" duration="4281000" />
       <workItem from="1651575660777" duration="1188000" />
-      <workItem from="1651590172127" duration="753000" />
+      <workItem from="1651590172127" duration="1623000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>

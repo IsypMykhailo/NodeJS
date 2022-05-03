@@ -30,6 +30,9 @@ app.use('/students', studentRouter);
 let portfolioRouter = require('./routes/portfolio');
 app.use('/api/portfolios', portfolioRouter);
 
+let mediaHelper = require('./routes/helpers/media-converter');
+app.use('/api/helpers/converter', mediaHelper);
+
 let mongoose = require('mongoose');
 let connectionString = "mongodb+srv://Mikeis:Qwerty1234@cluster0.bzti4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(
