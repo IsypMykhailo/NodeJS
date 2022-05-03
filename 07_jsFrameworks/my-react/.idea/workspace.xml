@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="unversioned">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer.js" afterDir="false" />
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="myarray">
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/.idea/20_04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz/20_04/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz/20_04/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz/20_04/src/js/4.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/07_jsFrameworks/my-react&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/dz/20_04",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ПРОГРАММИРОВАНИЕ\Программирование\NodeJS\07_jsFrameworks\my-react\src\components\portfolio\list" />
@@ -105,6 +109,7 @@
       <workItem from="1651076772735" duration="5034000" />
       <workItem from="1651158264550" duration="4281000" />
       <workItem from="1651575660777" duration="1188000" />
+      <workItem from="1651590172127" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -218,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651168474390</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="myarray">
+      <created>1651590213394</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651590213394</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +254,7 @@
     <MESSAGE value="reactProxy" />
     <MESSAGE value="reactSendToBackEnd" />
     <MESSAGE value="unversioned" />
-    <option name="LAST_COMMIT_MESSAGE" value="unversioned" />
+    <MESSAGE value="myarray" />
+    <option name="LAST_COMMIT_MESSAGE" value="myarray" />
   </component>
 </project>
