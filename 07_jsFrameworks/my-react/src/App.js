@@ -6,7 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 
 //import MyContactForm from "./components/MyContactForm";
 //import MyReactive from "./components/MyReactive";
-//import MyArray from "./components/MyArray";
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
 import PageHome from "./pages/Home";
@@ -18,6 +17,7 @@ import PagePortfolios from "./pages/Portfolios";
 
 function App() {
   return (
+
       <BrowserRouter>
         <div className="App">
             <Header></Header>
@@ -31,7 +31,6 @@ function App() {
             <Footer></Footer>
         </div>
       </BrowserRouter>
-
   );
 }
 

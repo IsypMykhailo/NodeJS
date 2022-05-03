@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="reactProxy">
-      <change afterPath="$PROJECT_DIR$/../../03_express/public/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_express/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_express/controllers/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/controllers/portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_express/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_express/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_express/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_express/yarn.lock" afterDir="false" />
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="unversioned">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListCreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/list/PortfolioListCreateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/07_jsFrameworks/my-react",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/07_jsFrameworks/my-react&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ПРОГРАММИРОВАНИЕ\Программирование\NodeJS\07_jsFrameworks\my-react\src\components\portfolio\list" />
@@ -108,7 +103,8 @@
       <workItem from="1651074118027" duration="2137000" />
       <workItem from="1651076472305" duration="193000" />
       <workItem from="1651076772735" duration="5034000" />
-      <workItem from="1651158264550" duration="4123000" />
+      <workItem from="1651158264550" duration="4281000" />
+      <workItem from="1651575660777" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -201,7 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651080938709</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="reactSendToBackEnd">
+      <created>1651168399078</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651168399078</updated>
+    </task>
+    <task id="LOCAL-00015" summary="unversioned">
+      <created>1651168461442</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651168461442</updated>
+    </task>
+    <task id="LOCAL-00016" summary="unversioned">
+      <created>1651168474390</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651168474390</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +240,8 @@
     <MESSAGE value="reactRouting" />
     <MESSAGE value="reactPortfolio" />
     <MESSAGE value="reactProxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="reactProxy" />
+    <MESSAGE value="reactSendToBackEnd" />
+    <MESSAGE value="unversioned" />
+    <option name="LAST_COMMIT_MESSAGE" value="unversioned" />
   </component>
 </project>
