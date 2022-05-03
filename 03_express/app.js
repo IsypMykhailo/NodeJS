@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // File Loader
 const multer = require("multer");
-app.use(multer({dest:"public/uploads"}).single("img"));
+app.use(multer({dest:"uploads"}).single("img"));
 
 let cookieParser = require('cookie-parser');
 app.use(cookieParser());
