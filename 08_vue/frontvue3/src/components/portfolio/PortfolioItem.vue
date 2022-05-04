@@ -1,10 +1,13 @@
 <template>
-
+  <p>{{ item }}</p>
 </template>
 
 <script>
 export default {
-  name: "PortfolioItem"
+  name: 'PortfolioItem',
+  props: {
+    item: {}
+  }
 }
 </script>
 
