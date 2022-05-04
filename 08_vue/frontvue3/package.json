@@ -1,6 +1,7 @@
 {
   "name": "frontvue3",
   "version": "0.1.0",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
