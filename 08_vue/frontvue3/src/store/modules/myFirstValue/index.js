@@ -4,17 +4,17 @@ export default {
     myFirstValue: 0
   },
   getters: {
-    getMyFirstValue({state}) {
+    getMyFirstValue ({ state }) {
       return state.myFirstValue
     }
   },
   mutations: {
-    setMyFirstValue({state}, data) {
+    setMyFirstValue ({ state }, data) {
       state.myFirstValue = data
     }
   },
   actions: {
-    apiGetMyFirstValue({state}, {commit}, {dispatch}, data) {
+    apiGetMyFirstValue ({ state }, { commit }, { dispatch }, data) {
       // get from server
     }
   }
