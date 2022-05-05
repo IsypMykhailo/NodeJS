@@ -1,3 +1,6 @@
+import { useToast } from 'vue-toast-notification'
+const toast = useToast()
+
 export default {
   // namespaced: true,
   state: {
@@ -9,13 +12,17 @@ export default {
     }
   },
   mutations: {
-    setMyFirstValue ({ state }, data) {
+    setMyFirstValue (state, data) {
       state.myFirstValue = data
     }
   },
   actions: {
-    apiGetMyFirstValue ({ state }, { commit }, { dispatch }, data) {
-      // get from server
+    apiGetMyFirstValue ({ state, commit, dispatch }) {
+      console.log('Get Data')
+      commit('setMyFirstValue', 'Success')
+      toast.success('Received Data', {
+        position: 'top'
+      })
     }
   }
 }
