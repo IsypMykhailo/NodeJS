@@ -1,10 +1,10 @@
 export default {
-  namespaced: true,
+  // namespaced: true,
   state: {
     myFirstValue: 0
   },
   getters: {
-    getMyFirstValue ({ state }) {
+    getMyFirstValue (state) {
       return state.myFirstValue
     }
   },
