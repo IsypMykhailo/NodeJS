@@ -4,7 +4,7 @@ const toast = useToast()
 export default {
   // namespaced: true,
   state: {
-    myFirstValue: 0
+    myFirstValue: JSON.parse(localStorage.getItem('myFirstValue')) || 0
   },
   getters: {
     getMyFirstValue (state) {
@@ -13,6 +13,7 @@ export default {
   },
   mutations: {
     setMyFirstValue (state, data) {
+      localStorage.setItem('myFirstValue', JSON.stringify(data))
       state.myFirstValue = data
     }
   },
