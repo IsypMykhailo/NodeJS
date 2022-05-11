@@ -1,5 +1,4 @@
-import { useToast } from 'vue-toast-notification'
-const toast = useToast()
+import ajax from '@/store/ajax'
 
 export default {
   // namespaced: true,
@@ -20,10 +19,9 @@ export default {
   actions: {
     apiGetMyFirstValue ({ state, commit, dispatch }) {
       console.log('Get Data')
+      ajax.get('url')
       commit('setMyFirstValue', 'Success')
-      toast.success('Received Data', {
-        position: 'top'
-      })
+      dispatch('toastInfo', 'Ok')
     }
   }
 }
