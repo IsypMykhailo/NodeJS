@@ -33,6 +33,10 @@ app.use('/api/portfolios', portfolioRouter);
 let mediaHelper = require('./routes/helpers/media-converter');
 app.use('/api/helpers/converter', mediaHelper);
 
+let auth = require('./controllers/auth')
+app.use(auth.middlewareAuth)
+app.post('/api/auth', auth.authByLogin)
+
 let mongoose = require('mongoose');
 let connectionString = "mongodb+srv://Mikeis:Qwerty1234@cluster0.bzti4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(

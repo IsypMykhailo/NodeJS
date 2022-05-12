@@ -2,6 +2,7 @@ const portfolios = require('../models/portfolio')
 
 // Вернуть всех
 exports.get = function (request, response) {
+    if(!request.user) return response.status(401).json({message:'Not authorized'})
     portfolios.find({},
         function (err, all) {
             if(err) {
