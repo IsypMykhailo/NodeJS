@@ -36,6 +36,7 @@ app.use('/api/helpers/converter', mediaHelper);
 let auth = require('./controllers/auth')
 app.use(auth.middlewareAuth)
 app.post('/api/auth', auth.authByLogin)
+app.post('/api/tryCreateUser', auth.tryCreateUser)
 
 let mongoose = require('mongoose');
 let connectionString = "mongodb+srv://Mikeis:Qwerty1234@cluster0.bzti4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
