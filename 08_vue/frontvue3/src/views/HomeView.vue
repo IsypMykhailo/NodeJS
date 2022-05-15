@@ -1,19 +1,19 @@
 <template>
   <div class="home">
-    <SongLyrics></SongLyrics>
+    <MyLogin></MyLogin><hr>
+    <MyRegister></MyRegister>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-import SongLyrics from '@/components/axios/SongLyrics'
-
+import MyRegister from '@/components/auth/MyRegister'
+import MyLogin from '@/components/auth/MyLogin'
 export default {
   name: 'HomeView',
   components: {
-    SongLyrics
-    // HelloWorld
+    MyLogin,
+    MyRegister
   }
 }
 </script>
