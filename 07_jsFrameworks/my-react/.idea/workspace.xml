@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="myArray CRUD">
-      <change afterPath="$PROJECT_DIR$/../../08_vue/frontvue3/src/store/modules/portfolio/index.js" afterDir="false" />
+    <list default="true" id="4711183d-5c3d-43b6-8a1a-a232c01024b1" name="Default Changelist" comment="portfolio CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08_vue/frontvue3/src/components/portfolio/PortfolioItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../08_vue/frontvue3/src/components/portfolio/PortfolioItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08_vue/frontvue3/src/components/portfolio/PortfolioList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../08_vue/frontvue3/src/components/portfolio/PortfolioList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08_vue/frontvue3/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../08_vue/frontvue3/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/07_jsFrameworks/my-react&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/08_vue",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ПРОГРАММИРОВАНИЕ\Программирование\NodeJS\07_jsFrameworks\my-react\src\components\portfolio\list" />
@@ -109,6 +105,8 @@
       <workItem from="1651590172127" duration="1623000" />
       <workItem from="1652613897280" duration="5222000" />
       <workItem from="1652621249683" duration="169000" />
+      <workItem from="1652621429510" duration="28000" />
+      <workItem from="1652622005399" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1650559458449</created>
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652618211554</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="portfolio CRUD">
+      <created>1652621446184</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1652621446184</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +267,7 @@
     <MESSAGE value="unversioned" />
     <MESSAGE value="myarray" />
     <MESSAGE value="myArray CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="myArray CRUD" />
+    <MESSAGE value="portfolio CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio CRUD" />
   </component>
 </project>

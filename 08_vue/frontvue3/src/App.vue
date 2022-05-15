@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/store">Store</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/portfolio">Portfolio</router-link>
+    <router-link to="/portfolio">Portfolio</router-link> |
+    <router-link to="/cars">Cars</router-link> |
+    <router-link to="/novaposhta">Nova Poshta</router-link>
   </nav>
   <router-view/>
 </template>

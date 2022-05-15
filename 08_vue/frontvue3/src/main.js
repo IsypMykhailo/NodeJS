@@ -12,6 +12,6 @@ import 'vue-toast-notification/dist/theme-sugar.css'
 createApp(App)
   .use(store)
   .use(router)
-  .use(BootstrapVue3)
   .use(VueToast)
+  .use(BootstrapVue3)
   .mount('#app')
