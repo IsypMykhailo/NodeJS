@@ -1,19 +1,19 @@
 <template>
   <div class="home">
-    <MyLogin></MyLogin><hr>
-    <MyRegister></MyRegister>
+    <MyProfile></MyProfile><hr>
+    <MyLogin></MyLogin>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import MyRegister from '@/components/auth/MyRegister'
 import MyLogin from '@/components/auth/MyLogin'
+import MyProfile from '@/components/auth/MyProfile'
 export default {
   name: 'HomeView',
   components: {
-    MyLogin,
-    MyRegister
+    MyProfile,
+    MyLogin
   }
 }
 </script>

@@ -8,6 +8,7 @@ import portfolio from '@/store/modules/portfolio'
 import auth from '@/store/modules/auth'
 import carsData from '@/store/modules/carsData'
 import novaPoshta from '@/store/modules/novaPoshta'
+import profile from '@/store/modules/profile'
 
 export default createStore({
   strict: true,
@@ -29,6 +30,7 @@ export default createStore({
     auth,
     portfolio,
     carsData,
-    novaPoshta
+    novaPoshta,
+    profile
   }
 })

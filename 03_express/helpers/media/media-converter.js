@@ -50,12 +50,14 @@ function convertWebP(request) {
 
 // avatar - 100x100
 exports.avatar = function (request, response) {
+    console.log(request.file)
     let resultImg = convertWebP(request)
     console.log("Code return " + resultImg)
     if( resultImg === 201) {
-        response.send(JSON.stringify({filename: "/uploads/" + request.file.filename + ".webp"}))
+        return response.send(JSON.stringify(
+            {filename: "/uploads/" + request.file.filename + ".webp"}))
     }
-    response.statusCode = resultImg
+    return response.statusCode = resultImg
 }
 
 // post - thumb - 256x256, holder - 1200x256

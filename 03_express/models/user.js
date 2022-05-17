@@ -7,7 +7,8 @@ const user = new Schema({
     password: String,
     isVerify: Boolean,
     avatar: String,
-    username: String
+    username: String,
+    updated_at: Date
 });
 
 module.exports = mongoose.model("Users", user)
