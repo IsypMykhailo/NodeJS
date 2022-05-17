@@ -2,14 +2,34 @@ const portfolios = require('../models/portfolio')
 
 // Вернуть всех
 exports.get = function (request, response) {
-    if(!request.user) return response.status(401).json({message:'Not authorized'})
+    // return response.json({user: 'tobi'})
+    // console.log("get")
+    // console.log(request.user)
+    if(!request.user) {
+        console.log('No User')
+        return response.status(401)
+            .json({ message: 'Not authorized' })
+    }
+
     portfolios.find({},
         function (err, all) {
+            console.log('err')
+            console.log(err)
+            console.log('all')
+            console.log(all.length)
             if(err) {
+                console.log('Error in find')
                 console.error(err)
                 return err
+            } else {
+                // console.log(response)
+                try {
+                    return response.json(all)
+                }
+                catch (e) {
+                    console.log(e)
+                }
             }
-            response.json(all)
         }
     )
 }
@@ -32,7 +52,6 @@ exports.post = async function (request, response) {
     let ex = ''
     if(file.mimetype === "image/png") ex = '.png'
     else if (file.mimetype === "image/jpg"|| file.mimetype === "image/jpeg") ex = '.jpg'
-    else if (file.mimetype === "image/webp") ex = '.webp'
     else {
         response.sendStatus(422)
         return

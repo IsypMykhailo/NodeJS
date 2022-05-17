@@ -1,55 +1,70 @@
+// Server
 let express = require('express');
 let app = express();
 
+// Cors
 let cors = require('cors')
-app.use(cors())
+app.use(cors({origin: '*'}))
 
+// JSON
 const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
+
+// Disk - file operations
 let path = require('path');
 app.use(express.static(path.join(__dirname, 'public')));
 
 // File Loader
-const multer = require("multer");
-app.use(multer({dest:"uploads"}).single("img"));
+const multer  = require("multer");
+app.use(multer({dest:"uploads"}).single("img"))
 
+// Cookie
 let cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
+
+// Logger
 let logger = require('morgan');
 app.use(logger('dev'));
 
-let indexRouter = require('./routes/index');
-app.use('/', indexRouter);
-
-let usersRouter = require('./routes/users');
-app.use('/users', usersRouter);
-
-let studentRouter = require('./routes/students');
-app.use('/students', studentRouter);
-
-let portfolioRouter = require('./routes/portfolio');
-app.use('/api/portfolios', portfolioRouter);
-
-let mediaHelper = require('./routes/helpers/media-converter');
-app.use('/api/helpers/converter', mediaHelper);
-
+// Auth
 let auth = require('./controllers/auth')
 app.use(auth.middlewareAuth)
-app.post('/api/auth', auth.authByLogin)
-app.post('/api/tryCreateUser', auth.tryCreateUser)
+app.post ('/api/auth', auth.authByLogin)
+app.post ('/api/tryCreateUser', auth.tryCreateUser)
 
-let mongoose = require('mongoose');
-let connectionString = "mongodb+srv://Mikeis:Qwerty1234@cluster0.bzti4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
+// Router
+let indexRouter = require('./routes/index')
+let usersRouter = require('./routes/users')
+let studentRouter = require('./routes/students')
+let portfolioRouter = require('./routes/portfolio')
+
+let mediaHelper = require('./routes/helpers/media-converter')
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
+app.use('/students', studentRouter);
+app.use('/api/portfolios', portfolioRouter);
+app.use('/api/helpers/converter', mediaHelper);
+
+
+
+// DataBase
+let mongoose = require('mongoose')
+let connectionString = "mongodb+srv://userdb:QweAsdZxc!23@cluster0.wedqv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 mongoose.connect(
     connectionString,
-    {useNewUrlParser: true, useUnifiedTopology: true},
-    function(err){
-        console.log("DB Error");
-        console.log(err);
+    { useNewUrlParser: true, useUnifiedTopology: true },
+    function (err) {
+        if(err) {
+            console.log("DB Error")
+            console.log(err)
+        }
     }
-);
+)
+
 
 module.exports = app;
