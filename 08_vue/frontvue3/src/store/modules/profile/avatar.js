@@ -9,9 +9,17 @@ export default {
         }
       }
       return null
+    },
+    newFileAvatar: (state) => {
+      if (state.fileName) { return state.fileName }
+      return null
     }
   },
   mutations: {
+    fileName: (state, data) => {
+      state.fileName = data
+      console.log(state.fileName)
+    }
   },
   actions: {
     apiUploadAvatar ({ state, commit, dispatch }, data) {
