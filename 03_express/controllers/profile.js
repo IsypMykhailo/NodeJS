@@ -29,7 +29,7 @@ exports.updateAvatar = function (request,response) {
             await users.findOneAndUpdate({_id: request.user._id},
                 {avatar: upFile, updated_at: Date.now()}
             )
-            return response.status(204)
+            return response.status(201)
                 .json({avatarUrl: upFile})
         } catch (e) {
             return response.status(422).json(e)

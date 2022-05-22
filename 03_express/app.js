@@ -54,7 +54,7 @@ app.use('/api/helpers/converter', mediaHelper);
 
 // DataBase
 let mongoose = require('mongoose')
-let connectionString = "mongodb+srv://userdb:QweAsdZxc!23@cluster0.wedqv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+let connectionString = "mongodb+srv://Mikeis:xmJIaAT5LMDDL0xG@cluster0.bzti4.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(
     connectionString,
     { useNewUrlParser: true, useUnifiedTopology: true },
