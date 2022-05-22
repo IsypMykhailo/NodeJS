@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/ПРОГРАММИРОВАНИЕ/Программирование/Node.js/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Node.js/example" />
+  </component>
+  <component name="RunManager" selected="Node.js.www">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www" working-dir="$PROJECT_DIR$/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
   </component>
 </project>
