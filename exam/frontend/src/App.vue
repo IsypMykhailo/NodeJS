@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Translate></Translate>
+    <!--<img alt="Vue logo" src="./assets/logo.png">-->
+    <Menu></Menu>
+    <Translate></Translate>
 </template>
 
 <script>
-    import Translate from './components/Translate.vue'
+    import Translate from '@/components/Translate'
+    import Menu from '@/components/Menu'
 
 export default {
   name: 'App',
   components: {
-      Translate
+      Translate,
+      Menu
   }
 }
 </script>
