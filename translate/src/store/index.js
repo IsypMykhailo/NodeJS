@@ -1,5 +1,7 @@
 import { createStore } from 'vuex'
 import auth from '@/store/modules/auth'
+import toasts from '@/store/toasts'
+import translator from '@/store/modules/translator'
 
 export default createStore({
   strict: true,
@@ -13,6 +15,8 @@ export default createStore({
   // actions: {
   // },
   modules: {
-    auth
+    auth,
+    toasts,
+    translator
   }
 })

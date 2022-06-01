@@ -1,8 +1,9 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+let express = require('express');
+let app = express();
+let createError = require('http-errors');
+let path = require('path');
+let cookieParser = require('cookie-parser');
+let logger = require('morgan');
 
 // Cors
 let cors = require('cors')
@@ -12,10 +13,10 @@ app.use(cors({origin: '*'}))
 const multer  = require("multer");
 app.use(multer({dest:"uploads"}).single("img"))
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+let indexRouter = require('./routes/index');
+let usersRouter = require('./routes/users');
 
-var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

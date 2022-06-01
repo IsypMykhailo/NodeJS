@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export default {
   // namespace: true,
   state: {
@@ -60,7 +61,7 @@ export default {
       // console.log(email + ' ' + password)
       // TODO  проверки
     },
-    apiTryCrateUser ({ state, commit, dispatch }, data = null) {
+    apiTryCreateUser ({ state, commit, dispatch }, data = null) {
       const newUser = {
         email: state.email,
         password: state.password

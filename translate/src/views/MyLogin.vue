@@ -12,9 +12,9 @@
             <div v-if="!registerActive" class="card login" v-bind:class="{ error: emptyFields }">
               <h1>Sign In</h1>
               <form class="form-group">
-                <input v-model="emailLogin" type="email" class="form-control" placeholder="Email" required>
-                <input v-model="passwordLogin" type="password" class="form-control" placeholder="Password" required>
-                <input type="submit" class="btn btn-primary" @click="doLogin">
+                <input v-model="email" type="email" class="form-control" placeholder="Email" required>
+                <input v-model="password" type="password" class="form-control" placeholder="Password" required>
+                <input type="submit" class="btn btn-primary" @click="tryLogin">
                 <p>Don't have an account? <a href="#" @click="registerActive = !registerActive, emptyFields = false">Sign up here</a>
                 </p>
                 <p><a href="#">Forgot your password?</a></p>
@@ -24,10 +24,18 @@
             <div v-else class="card register" v-bind:class="{ error: emptyFields }">
               <h1>Sign Up</h1>
               <form class="form-group">
-                <input v-model="emailReg" type="email" class="form-control" placeholder="Email" required>
-                <input v-model="passwordReg" type="password" class="form-control" placeholder="Password" required>
-                <input v-model="confirmReg" type="password" class="form-control" placeholder="Confirm Password" required>
-                <input type="submit" class="btn btn-primary" @click="doRegister">
+                <input v-model="email" type="email" class="form-control" placeholder="Email" required>
+                <input v-model="password" type="password" class="form-control" placeholder="Password" required>
+                <input v-model="repeatPassword" type="password" class="form-control" placeholder="Confirm Password" required>
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input v-model="registerCheck" class="form-check-input me-2" type="checkbox" value="" id="registerCheck"
+                         aria-describedby="registerCheckHelpText" />
+                  <label class="form-check-label" for="registerCheck">
+                    I have read and agree to the terms
+                  </label>
+                </div>
+                <input type="submit" class="btn btn-primary" @click="tryCreateUser" :disabled="canSendForm">
                 <p>Already have an account? <a href="#" @click="registerActive = !registerActive, emptyFields = false">Sign in here</a>
                 </p>
               </form>
@@ -42,38 +50,62 @@
 
 <script>
 import { useRoute } from 'vue-router'
-
+import { useStore } from 'vuex'
+import { computed } from 'vue'
 export default {
   name: "MyLogin",
   data() {
     return{
       registerActive: false,
-      emailLogin: "",
-      passwordLogin: "",
-      emailReg: "",
-      passwordReg: "",
-      confirmReg: "",
+      //emailLogin: "",
+      //passwordLogin: "",
+      //emailReg: "",
+      //passwordReg: "",
+      //confirmReg: "",
       emptyFields: false
     }
   },
   setup () {
     const route = useRoute()
+    const store = useStore()
     console.log(route.query)
     return{
-      doLogin: () => {
-        if (this.emailLogin === "" || this.passwordLogin === "") {
-          this.emptyFields = true;
-        } else {
-          alert("You are now logged in");
+      tryLogin: () => { store.dispatch('apiTryLogin') },
+      email: computed({
+        get () {
+          return store.getters.email
+        },
+        set (data) {
+          store.commit('email', data)
         }
-      },
-      doRegister: () => {
-        if (this.emailReg === "" || this.passwordReg === "" || this.confirmReg === "") {
-          this.emptyFields = true;
-        } else {
-          alert("You are now registered");
+      }),
+      password: computed({
+        get () {
+          return store.getters.password
+        },
+        set (data) {
+          store.commit('password', data)
         }
-      }
+      }),
+
+      tryCreateUser: () =>{ store.dispatch('apiTryCreateUser') },
+      canSendForm: computed(() => !store.getters.canRegister),
+      repeatPassword: computed({
+        get () {
+          return store.getters.repeatPassword
+        },
+        set (data) {
+          store.dispatch('repeatPassword', data)
+        }
+      }),
+      registerCheck: computed({
+        get () {
+          return store.getters.registerCheck
+        },
+        set (data) {
+          store.dispatch('registerCheck', data)
+        }
+      })
     }
   }
 }

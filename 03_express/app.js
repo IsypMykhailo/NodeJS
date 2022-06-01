@@ -50,7 +50,8 @@ app.use('/students', studentRouter);
 app.use('/api/portfolios', portfolioRouter);
 app.use('/api/helpers/converter', mediaHelper);
 
-
+let t = require('./controllers/translator');
+app.get('/api/translator', t.TranslateToRus);
 
 // DataBase
 let mongoose = require('mongoose')
