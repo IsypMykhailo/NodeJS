@@ -21,8 +21,17 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
+// Auth
+const auth = require("./middleware/auth/jwt");
+
 // Route
 const routes = require('./routes')
 app.use('/', routes)
+const test = require('./controllers/test')
+app.get('/test', auth, test.test)
+
+app.get("/welcome", auth, (req, res) => {
+    res.status(200).send("Welcome 🙌 ");
+});
 
 module.exports = app

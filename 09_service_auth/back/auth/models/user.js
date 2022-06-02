@@ -1,14 +1,9 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
-// установка схемы
-const user = new Schema({
-    email: String,
-    password: String,
-    isVerify: Boolean,
-    avatar: String,
-    username: String,
-    updated_at: Date
+const userSchema = new mongoose.Schema({
+    email: { type: String, unique: true },
+    password: { type: String },
+    token: { type: String },
 });
 
-module.exports = mongoose.model("Users", user)
+module.exports = mongoose.model("user", userSchema);
