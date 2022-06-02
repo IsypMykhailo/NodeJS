@@ -9,7 +9,7 @@ exports.tryUserCreate = async function (req, res) {
         // Get user input
         const { email, password } = req.body;
 
-        console.log(req.body)
+        // console.log(req.body)
 
         // Validate user input
         if (!(email && password )) {
@@ -36,19 +36,23 @@ exports.tryUserCreate = async function (req, res) {
         // Create token
         // save user token
         user.token = await jwt.sign(
-            { user_id: user._id, email },
+            {user_id: user._id, email},
             process.env.TOKEN_KEY,
             {
-                expiresIn: "2h",
+                // expiresIn: "2h",
+                expiresIn: 60,
             },
             null
         );
+
+        // console.log('Return User:')
+        // console.log(user)
 
         // return new user
         return res.status(201).json(user);
     } catch (err) {
         console.log(err);
-        return res.status(500).json(err.message);
+        return res.status(500).send(err.message);
     }
     // Our register logic ends here
 }
