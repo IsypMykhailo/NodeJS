@@ -204,6 +204,7 @@
                         </button>
                     </div>
                 </div>
+              <button class="btn btn-primary" @click="saveTranslation"> Save </button>
             </div>
         </div>
 
@@ -248,6 +249,7 @@ export default {
         }
       }),
       getTranslation: () => {store.dispatch('apiGetTranslation')},
+      saveTranslation: () => {store.dispatch('apiSaveTranslation')},
       btnChange: () => {
         let select1 = document.getElementById("__BVID__9")
         let select2 = document.getElementById("__BVID__10")

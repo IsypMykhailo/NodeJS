@@ -3,6 +3,8 @@ const tokenKey = '1a2b-3c4d-5e6f-7g8h'
 
 const users = require('../models/user')
 
+const nodemailer = require('nodemailer')
+
 exports.middlewareAuth = function (req, response, next) {
     // console.log(req.headers.authorization)
     if (req.headers.authorization) {
@@ -54,7 +56,7 @@ exports.authByLogin = async function (req, res){
                 return res.status(500).json({ message: 'DB Error' })
             }
 
-            if(!user) {
+            if(!user || !user.isVerify) {
                 return res.status(404).json({ message: 'User Not Find' })
             }
 
@@ -112,4 +114,48 @@ exports.tryCreateUser = async function (req, res ){
         // TODO: отослать письмо на почту, что бы проверить валидность
         res.status(201).json(newUser)
     })
+}
+
+exports.sendEmailVerification = async function (req, res){
+    const transport = nodemailer.createTransport({
+        service: "Gmail",
+        auth: {
+            user: "amazonkanameforme@gmail.com",
+            pass: "alerkybgtlmbvsnc",
+        },
+    });
+
+    let email = req.body.email
+    console.log("Check");
+    transport.sendMail({
+        from: "mikeisisyp@gmail.com",
+        to: email,
+        subject: "Please confirm your account",
+        html: `<h1>Email Confirmation</h1>
+        <h2>Hello User</h2>
+        <p>Thank you for subscribing. Please confirm your email by clicking on the following link</p>
+        <a href=http://localhost:5000/api/auth/confirm/${email}> Click here</a>
+        </div>`,
+    }).catch(err => console.log(err));
+    console.log(res.status);
+}
+
+exports.verifyUser = function(req,res,next) {
+    users.findOne({
+        email: req.params.email,
+    })
+        .then((user) => {
+            if (!user) {
+                return res.status(404).send({ message: "User Not found." });
+            }
+
+            user.isVerify = true;
+            user.save((err) => {
+                if (err) {
+                    res.status(500).send({ message: err });
+                    return;
+                }
+            });
+        })
+        .catch((e) => console.log("error", e));
 }

@@ -87,7 +87,6 @@ export default {
           store.commit('password', data)
         }
       }),
-
       tryCreateUser: () =>{ store.dispatch('apiTryCreateUser') },
       canSendForm: computed(() => !store.getters.canRegister),
       repeatPassword: computed({

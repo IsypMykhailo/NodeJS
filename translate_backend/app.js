@@ -33,6 +33,12 @@ let auth = require('./controllers/auth')
 app.use(auth.middlewareAuth)
 app.post ('/api/auth', auth.authByLogin)
 app.post ('/api/tryCreateUser', auth.tryCreateUser)
+app.post('/api/sendEmailVerification', auth.sendEmailVerification)
+app.get('/api/auth/confirm/:email', auth.verifyUser)
+
+// Translation
+let translation = require('./controllers/translation')
+app.post('/api/saveTranslation', translation.saveTranslation)
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

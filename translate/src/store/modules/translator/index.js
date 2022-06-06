@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 //const axios = require('axios').default;
 const { v4: uuidv4 } = require('uuid');
-
 let subscriptionKey = "b45f1080455c4245ac48bb9e76cd3d72";
 let endpoint = "https://api.cognitive.microsofttranslator.com";
 
+import { emailToSend } from '../auth/forms'
 // Add your location, also known as region. The default is global.
 // This is required if using a Cognitive Services resource.
 let location = "westeurope";
@@ -100,8 +101,38 @@ export default {
                     callback(data[0].translations[0].text)
                 })
                 .catch(err => dispatch('logError', err))
+        },
+
+        apiSaveTranslation({ state, commit, dispatch }, data=null){
+            const newTranslation = {
+                email: emailToSend,
+                firstWord: state.firstWord,
+                secondWord: state.secondWord,
+                firstLanguage: state.firstLanguage,
+                secondLanguage: state.secondLanguage,
+            }
+            fetch('http://localhost:5000/api/saveTranslation', {
+                method: 'POST', // *GET, POST, PUT, DELETE, etc.
+                mode: 'cors', // no-cors, *cors, same-origin
+                cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: 'same-origin', // include, *same-origin, omit
+                headers: {
+                    'Content-Type': 'application/json'
+                    // 'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                redirect: 'follow', // manual, *follow, error
+                referrerPolicy: 'no-referrer', // no-referrer, *client
+                body: JSON.stringify(newTranslation) // body data type must match "Content-Type" header
+            })
+                .then(res => res.json())
+                .then(json => {
+                    console.log(json)
+                    dispatch('toastSuccess', ' Translation Saved')
+                    // TODO  уйти на другой маршрут, сообщить что все хорошо
+                })
+                .catch(err => {
+                    dispatch('errorLogAjax', err)
+                })
         }
-
-
     }
 }

@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+export var emailToSend
 export default {
   // namespace: true,
   state: {
@@ -88,6 +89,7 @@ export default {
         .catch(err => {
           dispatch('errorLogAjax', err)
         })
+      dispatch('sendEmailVerification', newUser)
     },
     apiTryLogin ({ state, commit, dispatch }) {
       const user = {
@@ -122,7 +124,34 @@ export default {
         .catch(err => {
           dispatch('errorLogAjax', err)
         })
+      emailToSend = user.email
+    },
+    sendEmailVerification({ state, commit, dispatch }, user=null){
+      if(user === null) return
+      dispatch('toastSuccess', ' Congratulations! Your account was created, check your email to verify it')
+      fetch('http://localhost:5000/api/sendEmailVerification', {
+        method: 'POST', // *GET, POST, PUT, DELETE, etc.
+        mode: 'cors', // no-cors, *cors, same-origin
+        cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: 'same-origin', // include, *same-origin, omit
+        headers: {
+          'Content-Type': 'application/json'
+          // 'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        redirect: 'follow', // manual, *follow, error
+        referrerPolicy: 'no-referrer', // no-referrer, *client
+        body: JSON.stringify(user) // body data type must match "Content-Type" header
+      })
+          .then(res => res.json())
+          .then(json => {
+            console.log(json)
+            dispatch('toastSuccess', ' Please check your email!')
+            // TODO  уйти на другой маршрут, сообщить что все хорошо
+          })
+          .catch(err => {
+            dispatch('errorLogAjax', err)
+          })
     }
   }
-
 }
+

@@ -2,145 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5604eb1-28db-4fa1-89a7-4185f39058c3" name="Changes" comment="translate">
-      <change afterPath="$PROJECT_DIR$/../03_express/controllers/translator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../translate/src/store/modules/translator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../translate/src/store/toasts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/image-size" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/image-size" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/image-size.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/image-size.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/image-size.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/mime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/mime.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/mime.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/mime.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/mkdirp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/mkdirp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/mkdirp.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/mkdirp.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-conv" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-conv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-conv.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-conv.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-conv.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-sign" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-sign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-sign.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-sign.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-sign.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-verify" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-verify" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-verify.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-verify.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/sshpk-verify.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsc" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsc.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsc.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsc.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsserver" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsserver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsserver.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/tsserver.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/uuid.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.bin/uuid.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.bin/uuid.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/body-parser/node_modules/destroy/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/body-parser/node_modules/destroy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/body-parser/node_modules/destroy/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/body-parser/node_modules/destroy/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/bytes/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/bytes/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/bytes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/bytes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/cookie/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/cookie/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/cookie/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/cookie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/cookie/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/cookie/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/destroy/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/destroy/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/destroy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/destroy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/destroy/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/destroy/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/destroy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/destroy/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/bytes/History.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/bytes/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/bytes/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/bytes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/bytes/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/cookie/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/cookie/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/cookie/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/cookie/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/cookie/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/express/node_modules/iconv-lite/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/form-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/form-data/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/form-data/README.md.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/form-data/README.md.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/form-data/lib/form_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/form-data/lib/form_data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/form-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/form-data/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/form-data/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/iconv-lite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/request/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/request/node_modules/.bin/uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/request/node_modules/.bin/uuid.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/request/node_modules/.bin/uuid.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/request/node_modules/.bin/uuid.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/tr46/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/tr46/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/tr46/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/tr46/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/tr46/lib/mappingTable.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/tr46/lib/mappingTable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/tr46/lib/regexes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/tr46/lib/statusMapping.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/tr46/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/tr46/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/webidl-conversions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/webidl-conversions/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/webidl-conversions/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/webidl-conversions/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/webidl-conversions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/webidl-conversions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/Function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/URL-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/URL-impl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/URL.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/URL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/URLSearchParams-impl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/URLSearchParams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/VoidFunction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/encoding.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/infra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/percent-encoding.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/url-state-machine.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/url-state-machine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/urlencoded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/node_modules/whatwg-url/webidl2js-wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_express/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../03_express/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/post.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/config/mongo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/user/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/user/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/user/refresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/middleware/auth/jwt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/translation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/translation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_service_auth/back/auth/controllers/user/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../09_service_auth/back/auth/controllers/user/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_service_auth/back/auth/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../09_service_auth/back/auth/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../translate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../translate/src/components/Translate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/components/Translate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../translate/src/store/modules/auth/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/store/modules/auth/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../translate/src/store/modules/translator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/store/modules/translator/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../translate/src/views/MyLogin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/views/MyLogin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,19 +68,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.14.2&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.11.36&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/translate&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.14.2",
+    "javascript.nodejs.core.library.typings.version": "16.11.36",
+    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/08_vue",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -199,6 +96,7 @@
       <workItem from="1654073757395" duration="1307000" />
       <workItem from="1654097404916" duration="733000" />
       <workItem from="1654102783885" duration="25000" />
+      <workItem from="1654535139214" duration="7380000" />
     </task>
     <task id="LOCAL-00001" summary="translate">
       <created>1653763677239</created>
