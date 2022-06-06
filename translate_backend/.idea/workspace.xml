@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5604eb1-28db-4fa1-89a7-4185f39058c3" name="Changes" comment="translate">
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/post.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/config/mongo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/user/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/user/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/controllers/user/refresh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/middleware/auth/jwt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09_service_auth/back/post/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/translation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/translation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09_service_auth/back/auth/controllers/user/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../09_service_auth/back/auth/controllers/user/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09_service_auth/back/auth/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../09_service_auth/back/auth/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/components/Translate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/components/Translate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/store/modules/auth/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/store/modules/auth/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/store/modules/translator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/store/modules/translator/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/views/MyLogin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/views/MyLogin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="d5604eb1-28db-4fa1-89a7-4185f39058c3" name="Changes" comment="translate" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +59,7 @@
       <workItem from="1654073757395" duration="1307000" />
       <workItem from="1654097404916" duration="733000" />
       <workItem from="1654102783885" duration="25000" />
-      <workItem from="1654535139214" duration="7380000" />
+      <workItem from="1654535139214" duration="7695000" />
     </task>
     <task id="LOCAL-00001" summary="translate">
       <created>1653763677239</created>
@@ -105,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653763677239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="translate">
+      <created>1654543698142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654543698142</updated>
+    </task>
+    <task id="LOCAL-00003" summary="translate">
+      <created>1654543786900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654543786900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
