@@ -73,7 +73,7 @@ export default {
         email: state.email,
         password: state.password
       }
-      fetch('http://localhost:5000/api/tryCreateUser', {
+      fetch('/api/tryCreateUser', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -102,7 +102,7 @@ export default {
         email: state.email,
         password: state.password
       }
-      fetch('http://localhost:5000/api/auth', {
+      fetch('/api/auth', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -135,7 +135,7 @@ export default {
     sendEmailVerification({ state, commit, dispatch }, user=null){
       if(user === null) return
       dispatch('toastSuccess', ' Congratulations! Your account was created, check your email to verify it')
-      fetch('http://localhost:5000/api/sendEmailVerification', {
+      fetch('/api/sendEmailVerification', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached

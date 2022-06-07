@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5604eb1-28db-4fa1-89a7-4185f39058c3" name="Changes" comment="translate">
+      <change beforePath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09_service_auth/back/post/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../translate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/components/Translate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/components/Translate.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../translate/src/store/modules/auth/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/store/modules/auth/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../translate/src/views/MyLogin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/views/MyLogin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../translate/src/store/modules/translator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../translate/src/store/modules/translator/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "16.14.2",
     "javascript.nodejs.core.library.typings.version": "16.11.36",
-    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/09_service_auth/back/post",
+    "last_opened_file_path": "D:/ПРОГРАММИРОВАНИЕ/Программирование/NodeJS/translate_backend",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -69,6 +66,7 @@
       <workItem from="1654102783885" duration="25000" />
       <workItem from="1654535139214" duration="7695000" />
       <workItem from="1654614204167" duration="1361000" />
+      <workItem from="1654624074279" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="translate">
       <created>1653763677239</created>
