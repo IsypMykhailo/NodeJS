@@ -204,7 +204,7 @@
                         </button>
                     </div>
                 </div>
-              <button class="btn btn-primary" @click="saveTranslation"> Save </button>
+              <button class="btn btn-primary" v-if="email !== ''" @click="saveTranslation" style="margin-bottom:10px"> Save </button>
             </div>
         </div>
 
@@ -221,6 +221,7 @@ export default {
   setup(){
     const store = useStore()
     return{
+      email: computed(() => store.getters.email),
       secondWord: computed(() => store.getters.getSecondWord),
       translationError: computed(() => store.getters.getTranslationError),
       isTranslationLoading: computed(() => store.getters.getIsTranslationLoading),

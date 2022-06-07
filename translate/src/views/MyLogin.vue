@@ -11,10 +11,10 @@
           <div class="col-lg-4 col-md-6 col-sm-8 mx-auto">
             <div v-if="!registerActive" class="card login" v-bind:class="{ error: emptyFields }">
               <h1>Sign In</h1>
-              <form class="form-group">
+              <form class="form-group" action="/">
                 <input v-model="email" type="email" class="form-control" placeholder="Email" required>
                 <input v-model="password" type="password" class="form-control" placeholder="Password" required>
-                <input type="submit" class="btn btn-primary" @click="tryLogin">
+                <input type="submit" class="btn btn-primary" @click="tryLogin" value="Sign In">
                 <p>Don't have an account? <a href="#" @click="registerActive = !registerActive, emptyFields = false">Sign up here</a>
                 </p>
                 <p><a href="#">Forgot your password?</a></p>
@@ -35,7 +35,7 @@
                     I have read and agree to the terms
                   </label>
                 </div>
-                <input type="submit" class="btn btn-primary" @click="tryCreateUser" :disabled="canSendForm">
+                <input type="button" class="btn btn-primary" @click="tryCreateUser" :disabled="canSendForm" value="Sign Up">
                 <p>Already have an account? <a href="#" @click="registerActive = !registerActive, emptyFields = false">Sign in here</a>
                 </p>
               </form>

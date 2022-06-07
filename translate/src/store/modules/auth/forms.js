@@ -3,8 +3,8 @@ export var emailToSend
 export default {
   // namespace: true,
   state: {
-    email: '',
-    password: '',
+    email: localStorage.getItem("Email") || '',
+    password: localStorage.getItem("Password") || '',
     repeatPassword: '',
     registerCheck: false,
     errLogin: null,
@@ -25,8 +25,14 @@ export default {
     errPassword: (state) => state.errPassword
   },
   mutations: {
-    email: (state, data) => { state.email = data },
-    password: (state, data) => { state.password = data },
+    email: (state, data) => {
+      state.email = data
+      localStorage.setItem("Email", state.email)
+    },
+    password: (state, data) => {
+      state.password = data
+      localStorage.setItem("Password", state.password)
+    },
     repeatPassword: (state, data) => { state.repeatPassword = data },
     registerCheck: (state, data) => { state.registerCheck = data },
     errLogin: (state, data) => { state.errLogin = data },

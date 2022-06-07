@@ -5,7 +5,8 @@
       <router-link class="navbar-brand" to="/" style="color:black; font-size:16pt;text-transform: uppercase"><b>Translate</b></router-link>
       <div class="order-lg-last">
         <p class="mb-0 d-flex">
-          <router-link to="/login" class="d-flex align-items-center justify-content-center" style="color:black;"><b>Login</b></router-link>
+          <router-link to="/login" v-if="email === ''" class="d-flex align-items-center justify-content-center" style="color:black;"><b>Login</b></router-link>
+          <button v-if="email !== ''" @click="logout" class="d-flex align-items-center justify-content-center" style="color:black;border:none;outline:none;background:none"><b>Logout</b></button>
         </p>
       </div>
     </div>
@@ -17,11 +18,23 @@
 
 <script>
 import Footer from '@/components/Footer'
-
+import { useStore } from 'vuex'
+import { computed } from 'vue'
 export default {
   name: 'App',
   components:{
     Footer
+  },
+  setup(){
+    const store = useStore()
+    return{
+      email: computed(() => store.getters.email),
+      password: computed(() => store.getters.password),
+      logout: () => {
+        store.commit("email", '')
+        store.commit("password", '')
+      }
+    }
   }
 }
 </script>
