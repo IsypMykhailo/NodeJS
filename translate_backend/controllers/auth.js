@@ -128,7 +128,7 @@ exports.sendEmailVerification = async function (req, res){
     let email = req.body.email
     console.log("Check");
     transport.sendMail({
-        from: "mikeisisyp@gmail.com",
+        from: "amazonkanameforme@gmail.com",
         to: email,
         subject: "Please confirm your account",
         html: `<h1>Email Confirmation</h1>
@@ -158,4 +158,5 @@ exports.verifyUser = function(req,res,next) {
             });
         })
         .catch((e) => console.log("error", e));
+    res.redirect('/emailConfirm')
 }
