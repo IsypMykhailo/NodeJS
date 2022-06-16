@@ -2,7 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const webp=require('webp-converter');
 const im = require('imagemagick');
+const { BlobServiceClient } = require("@azure/storage-blob");
 
+const uploads = 'uploads'
+const { AZURE_URL } = process.env;
 
 
 /**
@@ -22,11 +25,13 @@ function convertWebP(request) {
 
     let fromFile = path.join(__dirname, '../../uploads/', file.filename)
     let toFile = path.join(__dirname, '../../public/uploads', file.filename) + ".webp"
-    console.log("FromFile: " + fromFile)
+    // console.log("FromFile: " + fromFile)
+
+    const result = webp.cwebp(fromFile, toFile,"-q 80",logging="-v");
 
     // im.resize({
-    //     srcPath: fromFile,
-    //     dstPath: fromFile + 'resize',
+    //     srcPath: toFile,
+    //     dstPath: toFile + 'resize',
     //     width:   256
     // }, function(err, stdout, stderr){
     //     if (err) {
@@ -35,9 +40,6 @@ function convertWebP(request) {
     //     }
     //     console.log('resized to fit within 256x256px');
     // });
-
-
-    const result = webp.cwebp(fromFile, toFile,"-q 80",logging="-v");
     // console.log(result)
     // result.then((response) => {
     //     // console.log(response);
@@ -53,13 +55,35 @@ async function sleep(ms) {
 
 // avatar - 100x100
 exports.avatar = async function (request, response) {
-    console.log(request.file)
+    // console.log(request.file)
     let resultImg = convertWebP(request)
-    console.log("Code return " + resultImg)
+    // console.log("Code return " + resultImg)
     if (resultImg === 201) {
         await sleep(2000);
-        return response.send(JSON.stringify(
-            {filename: "/" + request.file.filename + ".webp"}))
+
+        const fileName = request.file.filename + ".webp"
+
+        fs.readFile(__dirname + '/../../public/uploads/' + fileName,
+            async function (err, content) {
+                if (err) {
+                    console.log(err)
+                    return response.status(500).json(err.message)
+                    throw err;
+                }
+                // console.log(content)
+                const blobServiceClient = new BlobServiceClient(AZURE_URL);
+                const containerClient = blobServiceClient.getContainerClient(uploads);
+                const blockBlobClient = containerClient.getBlockBlobClient(fileName);
+                const uploadBlobResponse = await blockBlobClient.upload(content, content.length);
+
+                return response.send(JSON.stringify(
+                    {
+                        filename: "/" + request.file.filename + ".webp",
+                        uploadBlobResponse
+                    }
+                ))
+            });
+
     }
     return response.statusCode = resultImg
 }
